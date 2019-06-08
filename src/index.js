@@ -5,9 +5,7 @@ import PlaylistAnalyzerApp from './PlaylistAnalyzerApp/PlaylistAnalyzerApp';
 import * as serviceWorker from './serviceWorker';
 
 
-export default function renderSpotifyPlaylistAnalyzer() {
-  ReactDOM.render(<PlaylistAnalyzerApp/>, document.getElementById('root'));
-};
+ReactDOM.render(<PlaylistAnalyzerApp/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
